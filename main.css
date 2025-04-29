@@ -1,0 +1,503 @@
+*{
+
+margin: 0;
+font-family: arial;
+border:border-box;
+
+}
+
+
+
+
+.navbar{
+align-items: center;
+height: 60px;
+background-color: rgb(42, 39, 39);
+display: flex;
+justify-content: space-evenly;
+}
+
+.nav-logo{
+
+height: 90px;
+width:100px;
+padding-bottom: 18px;
+margin-right: 9px;
+}
+
+
+
+.logo{
+
+width: 120px;
+background-image: url('https://th.bing.com/th/id/OIP.O-sHb9U2oWWT8P_O2iGqcwHaHa?rs=1&pid=ImgDetMain');
+background-size: cover;
+height:80px ;
+
+
+
+}
+
+
+
+
+
+
+.border{
+
+border: 2p2pxx solid transparent;
+
+
+}
+
+.border:hover{
+
+
+border: 1.5px solid white;
+
+
+}
+
+/**b0x2* */
+
+.add-frist{
+color: white;
+margin-left: 15px;
+color: #cbc3c3
+font-size:0.85rem;
+
+}
+
+.add-second{
+margin-left: 3px;
+font-size: 1.2rem;
+color: white;
+}
+
+.add-icon{
+color: white;
+align-items: center;
+display: flex;
+
+}
+
+
+
+
+/**box3 */
+
+.nav-search{
+width: 620px;
+height: 30px;
+display: flex;
+border-radius: 3px;
+
+
+}
+
+.search-select{
+
+background-color: #f3f3f3;
+width: 50px;
+text-align: center;
+border-top-left-radius:4px ;
+border-bottom-left-radius:4px ;
+border: none;
+color: #181a1a;
+
+}
+
+.search-input{
+
+width: 100%;
+font-size: 1rem;
+border: none;
+
+
+}
+
+
+.search-icon{
+
+align-items: center;
+display: flex;
+justify-content: center;
+width:45px;
+font-size: 1.2rem;
+background-color: #423d44;
+border-top-right-radius:4px ;
+border-bottom-right-radius:4px ;
+color: white;
+
+
+
+}
+
+
+.nav-search:hover{
+
+border: 2px solid #ae803e;
+
+}
+
+
+
+
+
+/**box4**/
+
+span{
+
+font-size: 0.7rem;
+color: white
+}
+
+
+/**box5* */
+.nav-second{
+color: white;
+font-weight: 700;
+
+
+}
+
+
+
+/**box6**/
+
+.nav-cart{
+
+font-size: 20px;
+font-weight: 600;
+color:white;
+}
+
+
+
+/**panel* */
+.panel{
+color:black;
+height: 40px;
+background-color:#484f57;
+display: flex;
+color: white;
+align-items: center;
+justify-content: space-evenly;
+
+
+
+}
+
+.panel-op p{
+margin-left: 15px;
+display: inline;
+
+}
+
+.panel-op {
+width: 70%;
+font-size: 0.85rem;
+
+}
+
+.panel-deal{
+
+font-size: 0.9rem;
+font-weight: 700;
+
+
+}
+
+
+
+/**box7 */
+
+
+
+.hero-section{
+
+height: 780px;
+background-size: cover;
+width: 100%;
+background-image: url(https://live.staticflickr.com/65535/52507943351_51d9d6b366_b.jpg);
+
+
+}
+
+
+/**shop-section  */
+
+.shop-section{
+
+
+justify-content: space-evenly;
+width: 100%;
+display:flex ;
+column-gap: 23px;
+background-color:hsl(278, 22%, 24%) ;
+
+}
+
+
+
+.box{
+background-color: white;
+
+height: 380px;
+width: 100%;
+margin-left: 15px;
+padding: 20px 0px 15px;
+margin-top: 15px;
+margin-right: 15px;
+
+border-radius: 3px;
+
+
+}
+
+
+
+.box-img{
+
+height: 280px;
+background-size: cover;
+width: 100%;
+border-radius: 3px;
+}
+
+.box-content{
+font-size: small;
+margin-left: 2rem;
+margin-right: 2rem;
+text-align: center;
+
+
+
+}
+
+.box-content p{
+
+
+color:rgb(82, 82, 118);
+text-align: center;
+padding-top: 15px;
+font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+/**section2 */
+
+.shop-section2{
+
+background-color:hsl(278, 22%, 24%) ;
+display: flex;
+height: 350;
+width: 100%;
+justify-content: space-evenly;
+column-gap: 23px;
+}
+
+
+.box-img{
+
+height: 280;
+background-size: cover;
+
+
+}
+
+.box-content p1{
+
+font-weight: 400;
+
+}
+
+
+
+
+
+        
+        
+
+
+
+
+/**footer */
+footer{
+
+margin-top: 15px;
+
+
+}
+
+.foot-panel1{
+    
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:#363e46;
+    height: 50px;
+    display: flex;
+    font-size: 1rem;
+    
+    }
+    
+
+.foot-panel2{
+
+width: 100%;
+justify-content: space-evenly;
+background-color:hsl(278, 22%, 24%) ;
+color: white;
+display: flex;
+height: 290px;
+}
+
+ul{
+
+margin-left: 100px;
+margin-top: 10px;
+
+}
+
+
+ul a {
+justify-content: space-evenly;
+font-size: 0.90rem;
+margin-top: 10px;
+color: #dddddd;
+display:block;
+}
+
+ul p {
+font-weight: 600;
+
+}
+
+
+.foot-panel3{
+background-color:hsl(278, 22%, 24%) ;
+border-top: 2px solid white;
+height: 40px;
+
+}
+
+
+
+.org ul p1{
+
+
+font-weight: 600;
+}
+
+
+.org ul p {
+    
+    color: #dddddd;
+    justify-content: space-evenly;
+}
+
+
+.org ul p3{
+
+font-weight: 600;
+
+}
+
+.org ul p4{
+
+color: #dddddd;
+
+}
+
+
+.org2 ul img{
+
+width: 160%;
+
+}
+
+.org2 ul p{
+font-weight: 600;
+
+}
+
+.org3{
+
+margin-right: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
